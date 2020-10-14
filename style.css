@@ -1,0 +1,16 @@
+#game div {
+	border: 1px solid black;
+	width: 15%;
+	height: 200px;
+	margin: 0px;
+	display: inline-block;
+}
+.score {
+	font-size: 24px;
+	font-weight: bold;
+}
+div {
+	display: inline;
+	float: left;
+	margin-right: 0px;
+}
