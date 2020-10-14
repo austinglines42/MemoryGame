@@ -16,8 +16,9 @@ let numCards = 5;
 let COLORS = [];
 
 // Setting localStorage
-if (maxScore === null) {
+if (maxScore == "null") {
 	localStorage.setItem('maxScore', 0);
+	maxScore = 0;
 }
 updateMaxScore();
 
